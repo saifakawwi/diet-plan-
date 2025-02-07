@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -122,7 +122,7 @@
                 <input type="checkbox" name="Disease" value="Asthma"> Asthma<br>
                 <input type="checkbox" name="Disease" value="Cancer"> Cancer<br>
                 <input type="checkbox" name="Disease" value="Kidney Disease"> Kidney Disease<br>
-                <input type="checkbox" name="Disease" value="No Disease" required> No Disease<br>
+                <input type="checkbox" name="Disease" value="No Disease"> No Disease<br>
                 <input type="checkbox" name="Disease" value="Other"> Other: <input type="text" name="Other Disease" placeholder="Please specify">
             </td>
         </tr>
