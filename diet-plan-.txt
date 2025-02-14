@@ -103,6 +103,16 @@
             </td>
         </tr>
         <tr>
+            <td>What is your goal?</td>
+            <td>
+                <select name="Goal" required>
+                    <option value="Gain Weight">Gain Weight</option>
+                    <option value="Maintain Weight">Maintain Weight</option>
+                    <option value="Lose Weight">Lose Weight</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
             <td>InBody Test Photo:</td>
             <td><input type="file" name="InBody Photo" accept="image/*" required></td>
         </tr>
@@ -122,7 +132,7 @@
                 <input type="checkbox" name="Disease" value="Asthma"> Asthma<br>
                 <input type="checkbox" name="Disease" value="Cancer"> Cancer<br>
                 <input type="checkbox" name="Disease" value="Kidney Disease"> Kidney Disease<br>
-                <input type="checkbox" name="Disease" value="No Disease"> No Disease<br>
+                <input type="checkbox" name="Disease" value="No Disease" required> No Disease<br>
                 <input type="checkbox" name="Disease" value="Other"> Other: <input type="text" name="Other Disease" placeholder="Please specify">
             </td>
         </tr>
